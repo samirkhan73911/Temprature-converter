@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature converter</title>
+    <link rel="stylesheet" href="Temprature converter.css">
+</head>
+
+<body>
+
+    <section>
+        <div id="header"  >
+            <h1>Temprature converter</h1>
+
+        </div>
+        <div id="main" class="display">
+            <form class="display" id="form">
+                <label id="label" class="MArginPading Secondryfont" for="UserinputField"> Temprature to convert:</label>
+                <input type="text" class="MArginPading primaryfont" id="UserinputField">
+                <p class="primaryfont Secondryfont" > <span id="Result"></span> </p>
+                <input type="submit" id="subbtn" value="Convert" class="MArginPading primaryfont">
+
+
+                <div>
+                    <input type="radio" class="MArginPading primaryfont" id="CtoFinputField" name="selection" checked >
+                    <label id="CtoFlabel" class="MArginPading Secondryfont" for="CtoFinputField">Celsius &rarr; Fahrenheit</label>
+                </div>
+                <div>
+                    <input type="radio" class="MArginPading primaryfont " id="FtoCinputField" name="selection" >
+                    <label id="FtoClabel" class="MArginPading Secondryfont" for="FtoCinputField"> Fahrenheit &rarr; Celsius </label>
+                </div>
+            </form>
+
+
+        </div>
+    </section>
+
+
+    <script src="Temprature converter.js"></script>
+</body>
+
+</html>

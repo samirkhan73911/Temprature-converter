@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 112, 114);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+
+
+    width: 650px;
+    padding: 10px 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color: rgb(54, 59, 61);
+    box-shadow: 0px 0px 30px rgb(227, 228, 237);
+
+
+}
+
+#header {
+    
+    background-color: rgba(110, 193, 196, 0.76);
+    text-align: center;
+    border: 1.5px solid rgba(233, 10, 10, 0.18);
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+
+}
+#header h1 {
+
+    text-shadow: 3px 1px grey ;
+
+}
+
+.MArginPading {
+
+    margin: 5px ;
+    padding: 10px;
+
+   
+
+}
+
+#CtoFlabel,#FtoClabel,#label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#UserinputField{
+   
+    border-radius: 10px;
+    border: 1.5px solid rgba(111, 0, 255, 0.30);
+    background-color: rgb(204, 198, 198);
+   
+}
+
+#subbtn{
+   
+    border-radius: 10px;
+    border: 1 solid black;
+    cursor: pointer;
+    background-color: rgb(244, 248, 0);
+    margin-bottom: 20px;
+
+}
+#subbtn:hover{
+   
+    
+    background-color: rgba(255, 255, 0, 0.637);
+
+}
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.primaryfont{
+    font-size: 1rem;
+    font-weight: bold;
+   
+    
+}
+.Secondryfont{
+    
+    color: white;
+    
+}
+#Result{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 10px 30px ;
+    display: none;
+    border-radius: 10px;
+}
