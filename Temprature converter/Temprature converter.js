@@ -18,8 +18,10 @@ subbtn.addEventListener("click", (e) => {
 
     
     if (!isNaN(temp)) {
+
+        ReusltField.style.display="None"
         tempConvertion(temp)
-         ReusltField.style.display="None"
+         
        
     }
 
